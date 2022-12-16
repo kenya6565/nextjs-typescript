@@ -4,7 +4,7 @@ import { Child } from "../components/Child";
 
 const inter = Inter({ subsets: ["latin"] });
 const client = new ApolloClient({
-  uri: "http://localhost:8080/",
+  uri: "http://localhost:8080/query",
   cache: new InMemoryCache(),
 });
 export default function Home() {
